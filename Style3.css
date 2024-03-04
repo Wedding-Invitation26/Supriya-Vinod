@@ -35,9 +35,8 @@ html {
 }
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(251, 176, 59, 0.3), rgba(228, 24, 99, 0.3)),
-    rgba(254, 62, 62, 0.2) url('/image/bg1.jpg') no-repeat;
+  background-image: url(./image/bg1.jpg),
+    linear-gradient(to bottom, rgba(251, 176, 59, 0.3), rgba(228, 24, 99, 0.3));
   background-attachment: fixed;
   background-size: cover;
   color: white;
